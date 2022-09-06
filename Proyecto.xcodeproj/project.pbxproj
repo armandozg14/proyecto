@@ -14,6 +14,7 @@
 		3DB6676228C7924200EE1D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6676028C7924200EE1D2F /* LaunchScreen.storyboard */; };
 		3DB6676D28C7924300EE1D2F /* ProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6676C28C7924300EE1D2F /* ProyectoTests.swift */; };
 		3DB6677828C7924300EE1D2F /* ProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB6677728C7924300EE1D2F /* ProyectoUITests.swift */; };
+		3DB6678628C7967100EE1D2F /* GROBOLD.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DB6678528C7967100EE1D2F /* GROBOLD.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3DB6677328C7924300EE1D2F /* ProyectoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB6677728C7924300EE1D2F /* ProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoUITests.swift; sourceTree = "<group>"; };
 		3DB6677928C7924300EE1D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB6678528C7967100EE1D2F /* GROBOLD.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GROBOLD.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3DB6675728C7924000EE1D2F /* AppDelegate.swift */,
 				3DB6675928C7924000EE1D2F /* ViewController.swift */,
+				3DB6678528C7967100EE1D2F /* GROBOLD.ttf */,
 				3DB6675B28C7924000EE1D2F /* Main.storyboard */,
 				3DB6675E28C7924200EE1D2F /* Assets.xcassets */,
 				3DB6676028C7924200EE1D2F /* LaunchScreen.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB6678628C7967100EE1D2F /* GROBOLD.ttf in Resources */,
 				3DB6676228C7924200EE1D2F /* LaunchScreen.storyboard in Resources */,
 				3DB6675F28C7924200EE1D2F /* Assets.xcassets in Resources */,
 				3DB6675D28C7924000EE1D2F /* Main.storyboard in Resources */,

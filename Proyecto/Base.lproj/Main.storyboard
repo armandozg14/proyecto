@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="landscape">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -20,26 +20,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Proyecto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g3x-hq-8SM">
-                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FONDO " highlightedImage="FONDO " translatesAutoresizingMaskIntoConstraints="NO" id="g3x-hq-8SM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vKx-KC-P2f">
-                                <rect key="frame" x="428.33333333333326" y="85" width="373.66666666666674" height="86.333333333333314"/>
+                                <rect key="frame" x="7" y="354.66666666666669" width="361" height="117.66666666666669"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w3C-ot-odP">
-                                <rect key="frame" x="428.33333333333326" y="174.66666666666666" width="373.66666666666674" height="85.999999999999972"/>
+                                <rect key="frame" x="7" y="478.33333333333326" width="361" height="118"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gz6-PU-tYm">
-                                <rect key="frame" x="10" y="86" width="406" height="266.33333333333331"/>
+                                <rect key="frame" x="7" y="116.33333333333333" width="361" height="227.33333333333337"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CB5-cU-CQ7">
-                                <rect key="frame" x="428.33333333333326" y="264" width="373.66666666666674" height="86.333333333333314"/>
+                                <rect key="frame" x="7" y="602.66666666666663" width="361" height="117.66666666666663"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EdU-Gv-6LA">
-                                <rect key="frame" x="44" y="20" width="724" height="50"/>
+                                <rect key="frame" x="0.0" y="51" width="375" height="58.333333333333343"/>
                                 <fontDescription key="fontDescription" name="GROBOLD" family="GROBOLD" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -111,10 +111,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="CGc-NE-V9T"/>
                                 <exclude reference="D8q-Xm-PaX"/>
-                                <exclude reference="E16-g6-Akh"/>
-                                <exclude reference="GRW-KK-BLa"/>
                                 <exclude reference="0OO-Ci-Uyf"/>
                                 <exclude reference="NA8-DW-Jwb"/>
                                 <exclude reference="avt-6x-dBc"/>
@@ -125,25 +122,25 @@
                                 <exclude reference="nUL-bo-Pu9"/>
                                 <exclude reference="sQq-gc-Hbv"/>
                                 <exclude reference="z7f-jW-05u"/>
-                                <exclude reference="00H-vJ-UmV"/>
-                                <exclude reference="By7-R7-Wvl"/>
-                                <exclude reference="fy2-Kw-cSw"/>
                                 <exclude reference="1YG-5d-qc9"/>
+                                <exclude reference="CGc-NE-V9T"/>
                                 <exclude reference="X5D-DM-Yqu"/>
                                 <exclude reference="hao-WG-aYO"/>
                                 <exclude reference="7mu-aD-00Z"/>
                                 <exclude reference="98S-K7-vug"/>
+                                <exclude reference="GRW-KK-BLa"/>
                                 <exclude reference="m40-bT-sVs"/>
+                                <exclude reference="00H-vJ-UmV"/>
+                                <exclude reference="By7-R7-Wvl"/>
+                                <exclude reference="E16-g6-Akh"/>
+                                <exclude reference="fy2-Kw-cSw"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
-                                <include reference="CGc-NE-V9T"/>
                                 <include reference="D8q-Xm-PaX"/>
                                 <exclude reference="DxX-WR-lPs"/>
-                                <include reference="E16-g6-Akh"/>
                                 <exclude reference="Fka-oe-gfy"/>
-                                <include reference="GRW-KK-BLa"/>
                                 <exclude reference="Gh6-gd-f4l"/>
                                 <exclude reference="klc-hM-1Nu"/>
                                 <exclude reference="szz-7S-ozg"/>
@@ -166,24 +163,27 @@
                                 <include reference="sQq-gc-Hbv"/>
                                 <exclude reference="xBM-Kc-v9m"/>
                                 <include reference="z7f-jW-05u"/>
-                                <include reference="00H-vJ-UmV"/>
-                                <exclude reference="7WM-nH-But"/>
-                                <include reference="By7-R7-Wvl"/>
-                                <exclude reference="UXD-N5-uat"/>
-                                <exclude reference="fgw-Xa-6mW"/>
-                                <include reference="fy2-Kw-cSw"/>
                                 <include reference="1YG-5d-qc9"/>
                                 <exclude reference="9I1-V8-Zo3"/>
                                 <exclude reference="Bf6-cc-i4Y"/>
+                                <include reference="CGc-NE-V9T"/>
                                 <exclude reference="KY6-C2-DYN"/>
                                 <include reference="X5D-DM-Yqu"/>
                                 <include reference="hao-WG-aYO"/>
                                 <include reference="7mu-aD-00Z"/>
                                 <include reference="98S-K7-vug"/>
+                                <include reference="GRW-KK-BLa"/>
                                 <exclude reference="JlY-1g-BW0"/>
                                 <exclude reference="bFt-Pu-rwL"/>
                                 <exclude reference="beR-LJ-Et2"/>
                                 <include reference="m40-bT-sVs"/>
+                                <include reference="00H-vJ-UmV"/>
+                                <exclude reference="7WM-nH-But"/>
+                                <include reference="By7-R7-Wvl"/>
+                                <include reference="E16-g6-Akh"/>
+                                <exclude reference="UXD-N5-uat"/>
+                                <exclude reference="fgw-Xa-6mW"/>
+                                <include reference="fy2-Kw-cSw"/>
                             </mask>
                         </variation>
                     </view>
@@ -193,4 +193,7 @@
             <point key="canvasLocation" x="131.25" y="137.68115942028987"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FONDO " width="3125.333251953125" height="6767"/>
+    </resources>
 </document>

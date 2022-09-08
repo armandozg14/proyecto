@@ -23,20 +23,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-NA-LNS">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FONDO" translatesAutoresizingMaskIntoConstraints="NO" id="aSz-NA-LNS">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hCX-Fm-iz7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIERRA3 @x1" translatesAutoresizingMaskIntoConstraints="NO" id="hCX-Fm-iz7">
                                 <rect key="frame" x="10" y="78" width="393.5" height="358.5"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-tl-U2d">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIERRA1" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-tl-U2d" userLabel="Earth">
                                 <rect key="frame" x="10" y="478.5" width="193" height="179"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="VmG-78-7ew" appends="YES" id="bRy-hu-4wv"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="U93-1o-DVR">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SATURNO1" translatesAutoresizingMaskIntoConstraints="NO" id="U93-1o-DVR" userLabel="Saturn">
                                 <rect key="frame" x="211" y="478.5" width="193" height="179"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-n4-ol4">
-                                <rect key="frame" x="10" y="663.5" width="193" height="179.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="s2x-I2-lD7" appends="YES" id="Gbk-z9-BTq"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLANETS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BUW-kq-twl">
                                 <rect key="frame" x="0.0" y="44" width="414" height="24"/>
@@ -47,17 +52,28 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yf7-cc-Cje">
                                 <rect key="frame" x="599" y="189.66666666666666" width="203" height="123.99999999999997"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Summer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a planet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jaq-NM-T71">
                                 <rect key="frame" x="0.0" y="442.5" width="414" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-gn-vHZ">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIERRA3 @x1" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-gn-vHZ" userLabel="Mars">
                                 <rect key="frame" x="211" y="663.5" width="193" height="179.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="k8i-0r-ykt" appends="YES" id="q97-ii-zMH"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qh8-28-dx5">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="37"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="JUPITER1" translatesAutoresizingMaskIntoConstraints="NO" id="B6D-n4-ol4" userLabel="Jupiter">
+                                <rect key="frame" x="10" y="665" width="193" height="179.5"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="G3H-Hv-c6V" appends="YES" id="egt-Wb-ueY"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -297,10 +313,44 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="imgEarth" destination="P2u-tl-U2d" id="1jK-GH-H4n"/>
+                        <outlet property="imgJupiter" destination="B6D-n4-ol4" id="0jh-iI-Kdy"/>
+                        <outlet property="imgPlanetOn" destination="hCX-Fm-iz7" id="WaY-fx-3PZ"/>
+                        <outlet property="imgSaturno" destination="U93-1o-DVR" id="S0E-ql-NPN"/>
+                        <outlet property="lblSelect" destination="Jaq-NM-T71" id="FtR-Ae-99a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="s2x-I2-lD7" userLabel="TapSaturn">
+                    <connections>
+                        <action selector="doTapSaturn:" destination="BYZ-38-t0r" id="29j-AI-2Xi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="G3H-Hv-c6V" userLabel="TapJupiter">
+                    <connections>
+                        <action selector="doTapJupiter:" destination="BYZ-38-t0r" id="3tV-hF-NC1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="k8i-0r-ykt" userLabel="TapMars">
+                    <connections>
+                        <action selector="doTapMars:" destination="BYZ-38-t0r" id="cFT-pE-lOL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="VmG-78-7ew" userLabel="TapEarth">
+                    <connections>
+                        <action selector="doTapEarth:" destination="BYZ-38-t0r" id="shR-dV-z7U"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="126" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FONDO" width="2344" height="5075.5"/>
+        <image name="JUPITER1" width="540" height="540"/>
+        <image name="SATURNO1" width="540" height="540"/>
+        <image name="TIERRA1" width="540" height="540"/>
+        <image name="TIERRA3 @x1" width="540" height="540"/>
+    </resources>
 </document>
